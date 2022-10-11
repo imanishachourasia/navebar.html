@@ -1,0 +1,56 @@
+                    *,
+                    *::after,
+                    *::before {
+                        margin: 0px;
+                        padding: 0px;
+                        box-sizing: border-box;
+                    }
+                    
+                    .header {
+                        width: 100%;
+                        height: 100vh;
+                        border: 1px solid aqua;
+                        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        text-align: center;
+                        color: black;
+                        justify-content: center;
+                    }
+                    
+                    .logo,
+                    .menu-items {
+                        display: inline-block;
+                        color: wheat;
+                    }
+                    
+                    .parentUL a {
+                        text-decoration: none;
+                        color: wheat;
+                    }
+                    
+                    .navigation-bar {
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        justify-content: space-between;
+                        background-color: black;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    ul {
+                        list-style-type: none;
+                    }
+                    
+                    li {
+                        display: inline-block;
+                        color: wheat;
+                    }
+                    
+                    .parentUL {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        width: 600px;
+                    }
